@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" /> 
+    <title>Media Queries Job04</title>
+</head>
+<body>
+    <header>
+
+        <nav class="navbar">
+            <a href="#" class="logo">MENU</a>
+            <div class="nav-links">
+            <ul>    
+                <li><a href="Acceuil.html">Acceuil</a></li>
+                <li><a href="Présentation.html">Présentation</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            </div>
+            <img src="/jobXX/Job 04/burger.png" alt="burger-image" class="menu-hamburger">
+        </nav>
+    </header>
+    
+</body>
+
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</html>
